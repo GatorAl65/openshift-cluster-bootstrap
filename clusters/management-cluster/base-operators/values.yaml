@@ -54,7 +54,7 @@ helper-operator:
     # Loki
     #######
     loki-operator:
-      enabled: true
+      enabled: false 
       namespace:
         name: openshift-operators-redhat
         create: true
@@ -72,7 +72,7 @@ helper-operator:
     # OpenShift Logging
     ####################
     openshift-logging:
-      enabled: true
+      enabled: false
       namespace:
         name: openshift-logging
         create: true
@@ -90,7 +90,7 @@ helper-operator:
     # NetObserv
     ############
     netobserv-operator:
-      enabled: true
+      enabled: false
       namespace:
         name: openshift-netobserv-operator
         create: true
